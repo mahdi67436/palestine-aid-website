@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support Palestine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <h1>Support Palestine</h1>
+      <nav>
+        <a href="#donate">Donate</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="container hero-text">
+        <h2>Your Help is a Ray of Hope for Palestine</h2>
+        <p>Stand together, save together</p>
+        <a href="#donate" class="btn-donate">Donate Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="donate-section" id="donate">
+    <div class="container">
+      <h2 class="section-title">Make a Donation</h2>
+      
+      <!-- Donation Form -->
+      <form id="donationForm" class="donation-form">
+        <label for="amount">Select Donation Amount:</label>
+        <select id="amount" required>
+          <option value="" disabled selected>Select Amount</option>
+          <option value="10">৳10</option>
+          <option value="20">৳20</option>
+          <option value="30">৳30</option>
+          <option value="40">৳40</option>
+          <option value="50">৳50</option>
+          <option value="60">৳60</option>
+          <option value="70">৳70</option>
+          <option value="80">৳80</option>
+          <option value="90">৳90</option>
+          <option value="100">৳100</option>
+          <option value="200">৳200</option>
+          <option value="500">৳500</option>
+          <option value="1000">৳1000</option>
+          <option value="1500">৳1500</option>
+          <option value="2000">৳2000</option>
+          <option value="2500">৳2500</option>
+          <option value="3000">৳3000</option>
+          <option value="3500">৳3500</option>
+          <option value="4000">৳4000</option>
+          <option value="4500">৳4500</option>
+          <option value="5000">৳5000</option>
+          <option value="5500">৳5500</option>
+          <option value="6000">৳6000</option>
+          <option value="6500">৳6500</option>
+        </select>
+
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="text" id="senderNumber" placeholder="Sender's Number (e.g. 01XXXXXXXXX)" required />
+        <input type="text" id="trxid" placeholder="Transaction ID" required />
+
+        <label for="paymentMethod">Select Payment Method:</label>
+        <select id="paymentMethod" required>
+          <option value="" disabled selected>Select Payment Method</option>
+          <option value="Bkash">Bkash</option>
+          <option value="Rocket">Rocket</option>
+          <option value="Upay">Upay</option>
+        </select>
+
+        <!-- Display Payment Method Numbers -->
+        <div id="bikashNumber" style="display:none; margin-top: 10px; color: #10b981;">
+          Please send the donation to: 01332744295 (Bkash)
+        </div>
+        <div id="rocketNumber" style="display:none; margin-top: 10px; color: #10b981;">
+          Please send the donation to: 01332744295 (Rocket)
+        </div>
+        <div id="upayNumber" style="display:none; margin-top: 10px; color: #10b981;">
+          Please send the donation to: 01332744295 (Upay)
+        </div>
+
+        <button type="submit">Submit Donation</button>
+        <p id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="info-section" id="about">
+    <h3>About Us</h3>
+    <p>We are a humanitarian platform created to support the people of Palestine in their time of need.</p>
+  </section>
+
+  <section class="info-section" id="contact">
+    <h3>Contact</h3>
+    <p>EMAIL: <a href="mailto:mahdiislam237@gmail.com">mahdiislam237@gmail.com</a></p>
+    <p>PHONE: <a href="tel:+88001920904061">Call this Number</a></p>
+    <p>WhatsApp: <a href="https://wa.me/message/NPLXWV42OXTYB1" target="_blank">Message on WhatsApp</a></p>
+    <p>ADDRESS: 123, Main Street, Dhaka, Bangladesh</p>
+    <p>SOCIAL MEDIA:
+        <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a> | 
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> | 
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Palestine Aid. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
